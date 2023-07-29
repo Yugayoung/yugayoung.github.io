@@ -433,6 +433,7 @@ button:focus {
     border-radius: 100%;
     text-align: center;
     box-shadow: 5px 5px 0px 0px var(--color-accent);
+    transition: opacity 300ms ease-in;
 }
 /* Footer */
 #Contact {
@@ -449,7 +450,7 @@ button:focus {
 }
 
 .contact__link {
-    /* transition: color 250ms ease-in; */
+    transition: color 250ms ease-in;
 }
 
 .contact__link:hover {
@@ -536,5 +537,6 @@ button:focus {
         height: 3rem;
         bottom: 1.5rem;
         right: 1.5rem;
+        
     }
 }
